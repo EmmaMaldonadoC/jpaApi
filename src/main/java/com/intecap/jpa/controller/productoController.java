@@ -28,7 +28,6 @@ public class productoController {
             return ResponseEntity.badRequest().build();
         }
         return ResponseEntity.ok(repo.save(p));
-        repo.0
     }
 
 }
